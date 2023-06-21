@@ -2,6 +2,9 @@
   display: flex;
   gap: 8px;
 }
+.chat-item .chat-item {
+  display: none;
+}
 
 .avatar {
   height: 50px;
@@ -15,6 +18,9 @@
 .chat-item-info {
   display: grid;
   gap: 8px;
+}
+.chat-item-info .chat-item {
+  display: none;
 }
 
 .name {
