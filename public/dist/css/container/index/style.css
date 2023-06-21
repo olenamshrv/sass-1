@@ -2,9 +2,6 @@
   display: flex;
   gap: 8px;
 }
-.chat-item .chat-item {
-  display: none;
-}
 
 .avatar {
   height: 50px;
@@ -18,9 +15,6 @@
 .chat-item-info {
   display: grid;
   gap: 8px;
-}
-.chat-item-info .chat-item {
-  display: none;
 }
 
 .name {
@@ -58,9 +52,6 @@
   display: flex;
   gap: 8px;
   align-items: center;
-}
-.cost-item .chat-item {
-  display: none;
 }
 
 .cost, .earnings, .sales, .ref-earning, .balance {
@@ -109,9 +100,6 @@
   font-size: 24px;
   color: #1e2a35;
 }
-.cost-info .chat-item {
-  display: none;
-}
 
 .wrapper {
   display: grid;
@@ -119,9 +107,6 @@
   width: 60%;
   gap: 32px;
   padding: 8px;
-}
-.wrapper .chat-item {
-  display: none;
 }
 
 .container {
@@ -146,9 +131,6 @@
   font-size: 16px;
   color: #757e85;
 }
-.title .chat-item {
-  display: none;
-}
 
 .divider {
   height: 1px;
@@ -164,9 +146,6 @@
 .chats {
   display: grid;
   gap: 16px;
-}
-.chats .chat-item {
-  display: none;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -184,9 +163,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
-  }
-  .costs-container .chat-item {
-    display: none;
   }
 }
 

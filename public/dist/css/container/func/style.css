@@ -1,0 +1,17 @@
+/* Error: "Помилка - тип не може буде, як розмір"
+ *     ,
+ * 202 |   @include button('small', 'small');
+ *     |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *     '
+ *   src\container\func\style.scss 202:3  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: \"\41f \43e \43c \438 \43b \43a \430  - \442 \438 \43f  \43d \435  \43c \43e \436 \435  \431 \443 \434 \435 , \44f \43a  \440 \43e \437 \43c \456 \440 \"\a     \2577 \a 202 \2502    @include button('small', 'small');\d\a     \2502    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a     \2575 \a   src\\container\\func\\style.scss 202:3  root stylesheet";
+}
